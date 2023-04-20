@@ -14,7 +14,7 @@ gen64() {
 install_3proxy() {
     echo "installing 3proxy"
     URL="https://github.com/z3APA3A/3proxy/archive/0.9.4.tar.gz"
-    wget -qO- $URL | tar xzf 0.9.4.tar.gz
+    wget -q $URL | tar xzf 0.9.4.tar.gz
     mv ~/3proxy-0.9.4 ~/3proxy
     rm 0.9.4.tar.gz
     cd ~/3proxy
